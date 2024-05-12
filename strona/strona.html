@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strona</title>
+    <link rel="stylesheet" href="strona.css">
+</head>
+<body>
+    <h1>Witam na stronie wykonaną przez - Kuba Pacyga 4TIA</h1>
+    <table>
+        <tr>
+            <th>Marka</th>
+            <th>Model</th>
+            <th>Silnik</th>
+            <th>Moc</th>
+        </tr>
+        <tr>
+            <th>Ferrari</th>
+            <th>F40</th>
+            <th>2.9l V8</th>
+            <th>478KM</th>
+        </tr>
+        <tr>
+            <th>Lamborghini</th>
+            <th>Huracan</th>
+            <th>5.2l V10</th>
+            <th>640KM</th>
+        </tr>
+        <tr>
+            <th>Porsche</th>
+            <th>992 GT3RS</th>
+            <th>4l R6</th>
+            <th>525KM</th>
+        </tr>
+    </table>
+    <div class="zdjecie">
+        <img src="f40.jpg" alt="Ferrari F40">
+        <img src="huracan.webp" alt="Lamborghini Huracan">
+        <img src="992.jpeg" alt="Porsche 992 GT3RS">
+    </div>
+    <video src="f40.mp4" controls></video>
+    <video src="twinturbo.mp4" controls></video>
+    <video src="gt3rs.mp4"controls></video> <br>
+    <audio src="muza.MP3" controls></audio> <br>
+
+    <form>
+        <label for="name">Imię: </label>
+        <input type="text" id="name" name="name" required> <br><br>
+
+        <label for="surname">Nazwisko: </label>
+        <input type="text" id="surname" name="surname" required> <br><br>
+
+        <label for="birthdate">Data Urodzenia</label> 
+        <input type="date" id="birthdate" name="birthdate" required> <br><br>
+
+        <label for="password">Password: </label>
+        <input type="password" id="password" name="password" required> <br><br>
+        <label for="password2">Repeat Password: </label>
+        <input type="password" id="password2" name="password2" required> <br><br>
+
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="email" required> <br><br>
+
+        <label for="phone">Numer Telefonu</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}[0-9]{3}[0-9]{3}" required> <br><br>
+
+        <input type="submit" value="Zarejestruj"> <br><br>
+    </form>
+</body>
+</html>

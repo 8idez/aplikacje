@@ -1,0 +1,66 @@
+h1{
+    background-color: red;
+    font-style: italic;
+    height: 100px;
+    font-size: 50px;
+    text-align: center;
+}
+body{
+    background-color: aliceblue;
+}
+table{
+    margin-top: 100px;
+    border: 2px solid black;
+}
+th{
+    border: 2px solid black;
+    width: 35%;
+}
+tr{
+    border: 2px solid black;
+    width: 35%;
+}
+img{
+    scale: 50%;
+}
+.zdjecie{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:whitesmoke;
+}
+.zdjecie img{
+    margin-left: -100px;
+    width: 40%;
+    height: 60%;
+    border-radius: 100%;
+}
+video{
+    width: 20%;
+    height: auto;
+    margin-right:50px;
+    margin-bottom: 20px;
+}
+form{
+    width: 300px;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+input[type="text"],
+input[type="date"],
+input[type="email"],
+input[type="password"],
+input[type="tel"]{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+input[type="submit"]{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
